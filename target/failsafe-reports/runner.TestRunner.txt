@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 17.889 s <<< FAILURE! - in runner.TestRunner
+Feature to test login functionality.Check login is successfully with valid account  Time elapsed: 9.146 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user enters valid quanho and Abcd1234' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters valid quanho and Abcd1234")
+public void user_enters_valid_quanho_and_abcd1234() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user navigate to home page with a Hi quan ho, greeting lable")
+public void user_navigate_to_home_page_with_a_hi_quan_ho_greeting_lable() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Feature to test login functionality.Check login is unsuccessfully with invalid account  Time elapsed: 5.547 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user enters invalid quanho and abbcd1234' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters invalid quanho and abbcd1234")
+public void user_enters_invalid_quanho_and_abbcd1234() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("An Failed to authenticate: Access Denied will be displayed")
+public void an_failed_to_authenticate_access_denied_will_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.907">
+<testcase classname="Feature to test login functionality" name="Check login is successfully with valid account" time="8.877">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on login page.................................................passed
+When user enters valid quanho and Abcd1234..................................undefined
+And user clicks login button................................................skipped
+Then user navigate to home page with a Hi quan ho, greeting lable...........skipped
+]]></failure>
+</testcase>
+<testcase classname="Feature to test login functionality" name="Check login is unsuccessfully with invalid account" time="5.553">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on login page.................................................passed
+When user enters invalid quanho and abbcd1234...............................undefined
+And user clicks login button................................................skipped
+Then An Failed to authenticate: Access Denied will be displayed.............skipped
+]]></failure>
+</testcase>
+</testsuite>

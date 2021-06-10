@@ -1,0 +1,7 @@
+serenity\SerenityHomeStep.class
+stepDefinition\Hook.class
+page\HomePage.class
+serenity\SerenityLoginStep.class
+runner\TestRunner.class
+page\LoginPage.class
+stepDefinition\LoginStepDefs.class

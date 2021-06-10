@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-06-10T18:49:33.700Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4656799900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.openDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Check login is successfully with valid account",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successfully-with-valid-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 835723500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3168003300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enters valid quanho and Abcd1234",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6025400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefs.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5026400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user navigate to home page with a Hi quan ho, greeting lable",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LoginSuccess"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-06-10T18:49:42.682Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000392500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.openDriver()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check login is unsuccessfully with invalid account",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-unsuccessfully-with-invalid-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1072193800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hook.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1384113500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user enters invalid quanho and abbcd1234",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059300,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user clicks login button",
+            "match": {
+              "location": "stepDefinition.LoginStepDefs.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "An Failed to authenticate: Access Denied will be displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LoginUnsuccess"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/TestLogin.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
